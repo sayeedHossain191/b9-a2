@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="style.css">
 
     <script src="https://kit.fontawesome.com/116f3ab7c0.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,16 +33,23 @@
 
         <div class="banner-1">
             <img src="Images/Group 13 (1) (1).png" alt="" srcset="">
-            <h1 class="explore">Explore Your Travel</h1>
-            <p class="p1">Every traveler tries to get the best experience out of their budget. So, you can advise
-                readers to
-                smartly and strategically distribute their resources.</p>
+            <div class="explore">
+                <h1>Explore Your Travel</h1>
+                <p>Every traveler tries to get the best experience out of their budget. So, you can advise readers to
+                    smartly <br> and strategically distribute their resources.</p>
 
-            <div class="input-background">
-                <input type="text">
-                <input type="text">
-                <input type="text">
-                <button class="btn-1"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+                <div class="int">
+                    <input type="text" placeholder="Where to">
+                    <select class="opt">
+                        <option value="when">When</option>
+                    </select>
+                    <select class="opt">
+                        <option value="select">Select type</option>
+                    </select>
+                    <button class="btn">
+                        <i class="ab fa-solid fa-magnifying-glass"></i>
+                        Find Now</button>
+                </div>
             </div>
         </div>
     </header>
@@ -47,23 +58,20 @@
         <section class="popular-section">
             <div>
                 <h2 class="popular-tour">Our Popular Tours</h2>
-                <p class="p2">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales
-                    dictumst nec
-                    nibh pellentesque.</p>
+                <p class="p2">Adventure is a path. Real adventure, self-determined, self-motivated, often risky, forces
+                    you to have firsthand encounters with the world.</p>
                 <br>
                 <ul class="paragraph-list">
-                    <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis
-                        erat at
-                        .</li><br>
-                    <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus
-                        suspendisse
-                        nullam.</li><br>
-                    <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+                    <li>Travel is fatal to prejudice, bigotry, and narrow mindedness, and many of our people need it
+                        sorely on these accounts.</li><br>
+                    <li>I have found out that there ain’t no surer way to find out whether you like people or hate them
+                        than to travel with them.</li><br>
+                    <li>Man cannot discover new oceans unless he has the courage to lose sight of the shore.</li>
                 </ul>
                 <br>
-                <p class="p3"> Amet consectetur. Vulputate commodo felis molestie risus
-                    ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus
-                    natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
+                <p class="p3"> Twenty years from now you will be more disappointed by the things that you didn’t do than
+                    by the ones you did do. So throw off the bowlines. Sail away from the safe harbor. Catch the trade
+                    winds in your sails. Explore. </p>
                 <br>
                 <button class="btn-2">Read More</button>
             </div>
@@ -73,59 +81,54 @@
             </div>
         </section>
 
-        <!-- Choose Your Destination -->
+        <section class="Destination">
+            <h2 class="text-choose"> Choose Your Destination</h2>
+            <p>At the end of the day your feet should be dirty, your hair messy and your eyes sparkling. <br>
+                Don’t let fear get in the way of the life you are meant to live.</p>
 
-        <section>
-            <h2 class="choose">Choose Your Destination</h2>
-            <p class="p4">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales
-                dictumst nec
-                nibh pellentesque.</p>
-
-            <div>
-                <img src="Images/Rectangle 5.png" alt="" srcset="">
-                <img src="Images/Rectangle 8.png" alt="" srcset="">
-                <img src="Images/Rectangle 6.png" alt="" srcset="">
-                <img src="Images/Rectangle 7.png" alt="" srcset="">
-                <img src="Images/Rectangle 9.png" alt="" srcset="">
-                <img src="Images/Rectangle 11.png" alt="" srcset="">
-                <img src="Images/Rectangle 10.png" alt="" srcset="">
+            <div class="image-list">
+                <img class="test1" src="Images/Rectangle 5.png" alt="" srcset="">
+                <h2>Maldives</h2>
+                <img class="test1" src="Images/Rectangle 8.png" alt="" srcset="">
+                <img class="test1" src="Images/Rectangle 6.png" alt="" srcset="">
+                <img class="test1" src="Images/Rectangle 7.png" alt="" srcset="">
+                <img class="test1" src="Images/Rectangle 9.png" alt="" srcset="">
+                <img class="test1" src="Images/Rectangle 11.png" alt="" srcset="">
+                <img class="test1" src="Images/Rectangle 10.png" alt="" srcset="">
             </div>
         </section>
 
-        <!-- Why Choose Us -->
-
-        <section>
-            <h2 class="why">Why Choose Us</h2>
-            <p class="p5">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales
-                dictumst nec
-                nibh pellentesque.</p>
-
-            <div class="card1">
-                <img src="Images/hotel 1.png" alt="" srcset="">
-                <h3 class="card-title">Handpicked Hotels</h3>
-                <p class="card-paragraph">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
-                    Libero commodo
-                    sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+        <section class="choose-us">
+            <h2 class="text-choose">Why Choose Us</h2>
+            <p>When preparing to travel, lay out all your clothes and all your money. Then take half the
+                clothes and <br> twice the money.
+                Vacation calories don’t count. Right?</p>
+            <div class="service">
+                <div class="hotel">
+                    <img src="Images/hotel 1.png" alt="" srcset="">
+                    <h3>Handpicked Hotels</h3>
+                    <p>We live in a wonderful world that is full of beauty, charm and adventure.
+                        There is no end to the adventures we can have if only we seek them with <br> our eyes open. </p>
+                </div>
+                <div class="hotel1">
+                    <img src="Images/price-tag 1.png" alt="">
+                    <h3>World Class Service</h3>
+                    <p>Travel isn’t always pretty. It isn’t always comfortable. Sometimes it hurts,
+                        it even breaks your heart. But that’s okay. The journey changes you; it should change you. </p>
+                </div>
             </div>
-            <div class="card2">
-                <img src="Images/price-tag 1.png" alt="">
-                <h3 class="card-title">World Class Service</h3>
-                <p class="card-paragraph">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
-                    Libero commodo
-                    sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
-            </div>
-            <div class="card3">
+
+            <div class="hotel2">
                 <img src="Images/map 1.png" alt="" srcset="">
-                <h3 class="card-title">World Class Service</h3>
-                <p class="card-paragraph">Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et.
-                    Libero commodo
-                    sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                <h3>World Class Service</h3>
+                <p>Traveling is a brutality. It forces you to trust strangers and to lose sight
+                    of all that familiar comfort of home and friends. You are constantly off balance. <br>Travel far
+                    enough,
+                    you meet yourself. </p>
             </div>
         </section>
 
-        <!-- Deals & Discounts -->
-
-        <section>
+        <!-- <section>
             <h2>Deals & Discounts</h2>
             <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec
                 nibh pellentesque.</p>
@@ -174,9 +177,9 @@
                 <button>Book Now</button>
             </div>
             <button>See All Packages</button>
-        </section>
+        </section> -->
 
-        <section>
+        <!-- <section>
             <div>
                 <h1>A Simple Perfect Place To Get Lost</h1>
                 <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo
@@ -192,21 +195,21 @@
             <div>
                 <img src="Images/Group 40089.png" alt="" srcset="">
             </div>
-        </section>
+        </section> -->
 
-        <!-- NewsLetter Section  -->
-        <section>
-            <div>
+        <section class="test-2">
+            <div class="news">
                 <h3 class="newsletter">Newsletter</h3>
                 <p class="p6">Get your daily dose of travel news & tips. Sign up today!</p>
                 <form action="input">
                     <input class="input-area" placeholder="Enter your name" type="text">
-                    <input class="input-area" placeholder="Enter your name" type="text">
+                    <input class="input-area" placeholder="Enter your name" type="text"> <br>
                     <button class="subscribe">Subscribe</button>
                 </form>
             </div>
-            <div><img src="Images/Rectangle 8 (1).png" alt="" srcset="">
-                <div>
+            <div>
+                <img src="Images/Rectangle 8 (1).png" alt="" srcset="">
+                <div class="discount">
                     <h3>Travel.com</h3>
                     <h2>Save up to 70%</h2>
                 </div>
@@ -235,6 +238,10 @@
         <hr class="line">
         <h6 class="all-right">2024, All Rights Reserved.</h6>
     </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/35c7a8471a.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
