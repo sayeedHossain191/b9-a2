@@ -8,6 +8,11 @@
     gap: 20px;
 }
 
+.bar {
+    display: none;
+    margin-top: 50px;
+}
+
 .brand img {
     width: 65px;
     height: 56px;
@@ -74,6 +79,70 @@ nav li {
     font-size: 16px;
     font-weight: 400;
     width: 525px;
+}
+
+.maldives {
+    top: 1530px;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin-left: 350px;
+
+}
+
+.indonesia {
+    top: 1520px;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin-left: 980px;
+}
+
+.srilanka {
+    top: 1830px;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin-left: 280px;
+}
+
+.north {
+    top: 1830px;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin-left: 680px;
+}
+
+.kashmir {
+    top: 1830px;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin-left: 1130px;
+}
+
+.bangladesh {
+    top: 2150px;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin-left: 300px;
+}
+
+.bandarban {
+    top: 2150px;
+    position: absolute;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin-left: 910px;
 }
 
 .p3 {
@@ -192,7 +261,7 @@ nav li {
 
 .banner-1 img {
     border-radius: 16px;
-    margin-left: 135px;
+
 }
 
 .Destination {
@@ -280,17 +349,20 @@ nav li {
     background-color: #FF5400;
 }
 
+.ban-img {
+    margin-left: 135px;
+}
 
 .explore {
     color: white;
     position: absolute;
-    top: 120px;
-    margin-left: 135px;
-    border-radius: 10px;
+    top: 112px;
+    margin-left: 136px;
+    border-radius: 15px;
     text-align: center;
     background-image: linear-gradient(180deg, rgba(27, 23, 23, 0.8) 0%, rgba(12, 2, 2, 0) 100%);
-    padding-left: 200px;
-    padding-right: 255px;
+    padding-left: 185px;
+    padding-right: 253px;
     padding-top: 100px;
 
 
@@ -403,6 +475,52 @@ nav li {
         display: none;
     }
 
+    .bar {
+        display: contents;
+        cursor: pointer;
+        margin-top: 35px;
+        margin-right: 10px;
+    }
+
+    .banner-1 {
+        width: 260px;
+        height: 400px;
+    }
+
+
+    .ban-img {
+        margin-left: 0;
+        width: 480px;
+        height: 540px;
+
+    }
+
+    .px {
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .exp {
+        font-size: 30px;
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .explore {
+        width: 420px;
+        height: 50px;
+        padding-top: 5px;
+        padding-left: 30px;
+        padding-right: 30px;
+        top: 80px;
+        margin-left: 0;
+    }
+
+    .btn {
+        margin-left: 10px;
+        width: 270px;
+    }
+
     .brand {
         margin-left: 0;
     }
@@ -410,28 +528,32 @@ nav li {
     .brand img {
         width: 35px;
         height: 36px;
-        flex-shrink: 0;
     }
 
     .trip,
     .nearby {
+        margin-top: 30px;
         font-size: 21px;
     }
 
     .popular-section {
         display: block;
-        margin-left: 0;
+        width: 300px;
+        margin-top: 150px;
+
+        margin-left: 20px;
     }
+
 
     .popular-section img {
         /* width: 100%; */
-        width: 335px;
-        height: 342px;
-        flex-shrink: 0;
+        width: 330px;
+        height: 340px;
     }
 
     .popular-tour {
         font-size: 20px;
+
     }
 
     .p2 {
@@ -451,22 +573,29 @@ nav li {
     }
 
     .text-choose {
+        text-align: center;
         font-size: 20px;
+    }
+
+    .Destination {
+        margin-left: 20px;
+        width: 332px;
     }
 
     .Destination p {
         font-size: 14px;
     }
 
-    .image-list {
-        /* width: 335px;
-        height: 176px;
-        flex-shrink: 0; */
+    .service {
+        width: 280px;
+        margin-left: 0;
+        flex-direction: column;
     }
 
-    /* .text-choose {
-        font-size: 20px;
-    } */
+    .test1 {
+        width: 320px;
+    }
+
     .choose-us h {
         font-size: 20px;
         font-weight: 800;
@@ -476,9 +605,17 @@ nav li {
         font-size: 14px;
     }
 
-    .test-2 {
-        display: block;
+    .image-list {
+        margin-left: 10px;
     }
+
+    .test-2 {
+        text-align: center;
+        flex-direction: column;
+        width: 300px;
+        margin-left: 0;
+    }
+
 
     .newsletter {
         font-size: 20px;
@@ -489,10 +626,16 @@ nav li {
     }
 
     .news {
-
+        margin-left: 15px;
         width: 100%;
         height: 100%;
+        margin-bottom: 20px;
     }
+
+    .dis {
+        margin-left: 20px;
+    }
+
 
     .input-area,
     .subscribe {
@@ -518,6 +661,7 @@ nav li {
     .footer {
         width: 100%;
         height: 100%;
+        padding: 20px;
     }
 
     .footer-tag {
@@ -537,5 +681,75 @@ nav li {
 
     .footer-icon {
         padding-left: 40px;
+    }
+
+    .hotel2 {
+        margin-left: 0;
+    }
+
+    .int input {
+        padding-left: 60px;
+        padding-right: 70px;
+    }
+
+    .opt {
+        width: 270px;
+    }
+
+    .int {
+        margin-left: 20px;
+        padding: 20px;
+        display: grid;
+        width: 280px;
+        height: 280px;
+    }
+
+    .discount {
+        position: absolute;
+        width: 150px;
+        padding: 20px;
+        height: 35;
+        margin-left: 130px;
+        top: 5000px;
+
+    }
+
+    .discount h2 h3 {
+        font-size: 20px;
+    }
+
+    .maldives {
+        top: 1780px;
+        margin-left: 100px;
+    }
+
+    .indonesia {
+        top: 1970px;
+        margin-left: 100px;
+    }
+
+    .srilanka {
+        top: 2200px;
+        margin-left: 110px;
+    }
+
+    .north {
+        top: 2440px;
+        margin-left: 65px;
+    }
+
+    .kashmir {
+        top: 2740px;
+        margin-left: 110px;
+    }
+
+    .bangladesh {
+        top: 3010px;
+        margin-left: 90px;
+    }
+
+    .bandarban {
+        top: 3200px;
+        margin-left: 90px;
     }
 }
